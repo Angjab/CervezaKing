@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+
+    nav a{
+        font-weight: 600;
+        padding-right: 10px;
+    
+        .menu_item {
+            a{
+                background: white;
+                border: 5px solid white;
+                color: $maincolor;
+                text-decoration: none;
+                padding: 1rem;
+
+                &:hover {
+                    background: $maincolor;
+                    color: gold;
+                }
+
+            }
+            &:nth-child(4){
+                a {
+                    background: $secondarycolor;
+                    border: $secondarycolor;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}

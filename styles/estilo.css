@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+*::-moz-selection {
+  background-color: black;
+  color: gold;
+}
+*::selection {
+  background-color: black;
+  color: gold;
+}
+
+header {
+  display: flex;
+  height: 70px;
+  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+header nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+header nav a .menu_item a {
+  background: white;
+  border: 5px solid white;
+  color: gold;
+  text-decoration: none;
+  padding: 1rem;
+}
+header nav a .menu_item a:hover {
+  background: gold;
+  color: gold;
+}
+header nav a .menu_item:nth-child(4) a {
+  background: red;
+  border: red;
+  color: white;
+}/*# sourceMappingURL=estilo.css.map */
